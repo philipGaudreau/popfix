@@ -25,7 +25,7 @@ local function popup(self, opts)
 	col = opts.col,
 	title = opts.title,
 	border = opts.border,
-	border_chars = opts.border_chars,
+	border_chars = opts.border,
 	border_highlight = opts.border_highlight
     }
     local buf_win = floating_win.create_win(local_opts)
